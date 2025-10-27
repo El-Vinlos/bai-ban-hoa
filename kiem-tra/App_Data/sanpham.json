@@ -1,0 +1,34 @@
+[
+  {
+    "MaSp": 1,
+    "TenSp": "Hoa Hồng",
+    "MaLoaiSp": 1,
+    "SoLuong": 12,
+    "DonGia": 1200000,
+    "Hinh": "rose.webp"
+  },
+  {
+    "MaSp": 2,
+    "TenSp": "Hoa Lilac",
+    "MaLoaiSp": 2,
+    "SoLuong": 8,
+    "DonGia": 950000,
+    "Hinh": "lilac.webp"
+  },
+  {
+    "MaSp": 3,
+    "TenSp": "Hoa ánh dương",
+    "MaLoaiSp": 3,
+    "SoLuong": 10,
+    "DonGia": 850000,
+    "Hinh": "sunflower.webp"
+  },
+  {
+    "MaSp": 4,
+    "TenSp": "Hoa Lily Trắng",
+    "MaLoaiSp": 4,
+    "SoLuong": 6,
+    "DonGia": 1100000,
+    "Hinh": "lily.webp"
+  }
+]

@@ -1,0 +1,105 @@
+﻿@{
+    ViewData["Title"] = "Trang Chủ";
+}
+
+<!-- Hero Section -->
+<div class="jumbotron text-center bg-light mt-4">
+    <h1 class="display-4"><i class="fas fa-seedling text-success"></i> Chào Mừng Đến Với Hoa Tươi!</h1>
+    <p class="lead mt-3">Nơi mang đến cho bạn những bó hoa tươi thắm nhất để gửi gắm yêu thương.</p>
+    <a href="@Url.Action("All", "Product")" class="btn btn-success btn-lg mt-2">
+        <i class="fas fa-shopping-basket"></i> Xem Sản Phẩm
+    </a>
+</div>
+
+<!-- Featured Products -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Sản Phẩm Nổi Bật</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" class="card-img-top" alt="Hoa Hồng">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Hoa Hồng Đỏ</h5>
+                    <p class="card-text">Biểu tượng của tình yêu nồng cháy, hoàn hảo cho những dịp đặc biệt.</p>
+                    <a href="@Url.Action("Index", "SanPham")" class="btn btn-outline-success">Xem Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8" class="card-img-top" alt="Hoa Cúc">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Hoa Cúc Trắng</h5>
+                    <p class="card-text">Đại diện cho sự tinh khiết và niềm vui giản dị trong cuộc sống.</p>
+                    <a href="@Url.Action("Index", "SanPham")" class="btn btn-outline-success">Xem Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1470053050311-7a911f6c1d4b" class="card-img-top" alt="Hoa Lan">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Hoa Lan Tím</h5>
+                    <p class="card-text">Sang trọng, quý phái — món quà thể hiện sự trân trọng sâu sắc.</p>
+                    <a href="@Url.Action("Index", "SanPham")" class="btn btn-outline-success">Xem Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="https://images.unsplash.com/photo-1524594161849-418b23c6e4c8" class="img-fluid rounded shadow" alt="Hoa tươi cửa hàng">
+            </div>
+            <div class="col-md-6">
+                <h3>Về Chúng Tôi</h3>
+                <p>
+                    <strong>Hoa Tươi</strong> tự hào mang đến những sản phẩm hoa tươi chất lượng cao,
+                    được tuyển chọn kỹ lưỡng từ những nhà vườn uy tín. Chúng tôi luôn mong muốn
+                    giúp bạn truyền tải thông điệp yêu thương qua từng bó hoa.
+                </p>
+                <a href="@Url.Action("Index", "About")" class="btn btn-success mt-3">Tìm Hiểu Thêm</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Khách Hàng Nói Gì</h2>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="p-4 border rounded shadow-sm">
+                <p>"Hoa tươi và giao đúng giờ! Mình rất hài lòng."</p>
+                <h6 class="text-success mt-3">– Ngọc Anh</h6>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="p-4 border rounded shadow-sm">
+                <p>"Bó hoa sinh nhật rất đẹp, dịch vụ chu đáo và tận tâm."</p>
+                <h6 class="text-success mt-3">– Minh Phương</h6>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="p-4 border rounded shadow-sm">
+                <p>"Hoa chất lượng, giá hợp lý. Sẽ tiếp tục ủng hộ!"</p>
+                <h6 class="text-success mt-3">– Quang Huy</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call To Action -->
+<section class="text-center py-5 bg-success text-white">
+    <div class="container">
+        <h3 class="mb-3">Bạn Muốn Gửi Hoa Cho Người Thân?</h3>
+        <p>Đặt hoa ngay hôm nay để lan tỏa niềm vui và yêu thương!</p>
+        <a href="@Url.Action("Index", "SanPham")" class="btn btn-light btn-lg">
+            <i class="fas fa-gift"></i> Đặt Hoa Ngay
+        </a>
+    </div>
+</section>

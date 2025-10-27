@@ -1,0 +1,158 @@
+@{
+    ViewData["Title"] = "Giới Thiệu";
+}
+
+<style>
+  .hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 80px 0;
+  }
+  .feature-box {
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .feature-box:hover {
+    transform: translateY(-10px);
+  }
+  .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .team-member i {
+    font-size: 80px;
+    color: #667eea;
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container text-center">
+    <h1 class="display-4 font-weight-bold mb-4">Về Chúng Tôi</h1>
+    <p class="lead">Mang vẻ đẹp thiên nhiên đến từng ngôi nhà</p>
+  </div>
+</section>
+
+<!-- Story Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-4">Câu Chuyện Của Chúng Tôi</h2>
+        <p>Hoa Tươi được thành lập vào năm 2004 với niềm đam mê mang đến những bông hoa tươi đẹp nhất cho khách hàng. Với hơn 20 năm kinh nghiệm trong ngành, chúng tôi tự hào là một trong những cửa hàng hoa uy tín nhất tại Việt Nam.</p>
+        <p>Đội ngũ florist chuyên nghiệp của chúng tôi được đào tạo bài bản, luôn sáng tạo và cập nhật xu hướng thiết kế hoa mới nhất. Mỗi bó hoa đều được chăm chút tỉ mỉ, thể hiện tình yêu và sự tận tâm của chúng tôi.</p>
+        <p>Chúng tôi cam kết mang đến cho khách hàng những sản phẩm chất lượng cao nhất với giá cả hợp lý và dịch vụ giao hàng nhanh chóng, chu đáo.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O3EJgLs-c1w" title="YouTube video" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Tại Sao Chọn Chúng Tôi</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="feature-box bg-white shadow-sm">
+          <div class="text-center">
+            <i class="fas fa-leaf text-success" style="font-size: 50px;"></i>
+            <h4 class="mt-3">Hoa Tươi 100%</h4>
+            <p>Chúng tôi nhập hoa tươi mỗi ngày từ những vườn hoa uy tín, đảm bảo chất lượng tốt nhất.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-box bg-white shadow-sm">
+          <div class="text-center">
+            <i class="fas fa-truck text-primary" style="font-size: 50px;"></i>
+            <h4 class="mt-3">Giao Hàng Nhanh</h4>
+            <p>Dịch vụ giao hàng trong ngày, miễn phí cho đơn hàng trên 500.000₫.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="feature-box bg-white shadow-sm">
+          <div class="text-center">
+            <i class="fas fa-heart text-danger" style="font-size: 50px;"></i>
+            <h4 class="mt-3">Thiết Kế Độc Đáo</h4>
+            <p>Mỗi bó hoa được thiết kế riêng biệt, thể hiện phong cách và cảm xúc của bạn.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mission & Vision -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title"><i class="fas fa-bullseye text-primary"></i> Sứ Mệnh</h3>
+            <p class="card-text">Mang đến niềm vui và hạnh phúc cho khách hàng thông qua những bó hoa tươi đẹp và dịch vụ chuyên nghiệp. Chúng tôi luôn đặt sự hài lòng của khách hàng lên hàng đầu.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body">
+            <h3 class="card-title"><i class="fas fa-eye text-success"></i> Tầm Nhìn</h3>
+            <p class="card-text">Trở thành thương hiệu hoa tươi hàng đầu tại Việt Nam, được khách hàng tin tưởng và lựa chọn cho mọi dịp đặc biệt trong cuộc sống.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Đội Ngũ Của Chúng Tôi</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="team-member">
+          <i class="fas fa-user-circle"></i>
+          <h5>Nguyễn Thị Lan</h5>
+          <p class="text-muted">Giám Đốc</p>
+          <p>15 năm kinh nghiệm trong ngành hoa tươi</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-member">
+          <i class="fas fa-user-circle"></i>
+          <h5>Trần Văn Minh</h5>
+          <p class="text-muted">Trưởng Phòng Thiết Kế</p>
+          <p>Chuyên gia thiết kế hoa với nhiều giải thưởng</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-member">
+          <i class="fas fa-user-circle"></i>
+          <h5>Lê Thị Hoa</h5>
+          <p class="text-muted">Quản Lý Khách Hàng</p>
+          <p>Tận tâm chăm sóc và hỗ trợ khách hàng 24/7</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Hãy Để Chúng Tôi Phục Vụ Bạn</h2>
+    <p class="lead mb-4">Liên hệ ngay để được tư vấn và đặt hoa</p>
+    <a href="@Url.Action("Contact", "Home")" class="btn btn-primary btn-lg mr-3">Liên Hệ Ngay</a>
+    <a href="@Url.Action("Index", "SanPham")" class="btn btn-outline-primary btn-lg">Xem Sản Phẩm</a>
+  </div>
+</section>
